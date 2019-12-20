@@ -1,9 +1,5 @@
-
-# DiscordBot
-Making a bot to do fun things in Discord:
-The Two Main functions of this bot is to post various Dog Pictures on command as well as respond to the meme "OWO" with "What's this" and visa versa.<br/>
-
 ### Dog Bot<br/>
+Making a bot to do fun things in Discord, post various dog pics.
 Examples of Dogs from output !Dog:<br/>
 <img src="./images/DogDemo1.png" width="270">
 <img src="./images/DogDemo2.png" width="270">
