@@ -42,18 +42,21 @@ client.on('message', message => {
             else if (random > 10) {
                 message.channel.send("Try, \"!Dog zzz\"!");
             }
+            else if (random > 3) {
+                message.channel.send("Try, \"!Dog royal\"!");
+            }
             else {
                 message.channel.send("Try, \"!Dog puwpy\"!");
             }
         }
 
-        else if (random == 0 || message.content.includes("puwpy")) {
+        else if (random == 0 || message.content.toLocaleLowerCase().includes("puwpy")) {
             message.channel.send("Very Rare Dog!!! ", { files: ["./images/RareDog.jpg"] });
         }
-        else if (random == 30 || message.content.includes(":3")) {
+        else if (random == 30 || message.content.toLocaleLowerCase().includes(":3")) {
             message.channel.send('Meow?', { files: ["./images/Meow.png"] });
         }
-        else if (random == 25 || message.content.includes("festive") ) {
+        else if (random == 25 || message.content.toLocaleLowerCase().includes("festive") ) {
             message.channel.send("Festive Dog!!! ", { files: ["./images/ChirstmasDog.jpg"] });
         }
         else if ((random > 0  && random <= 3 )|| message.content.includes("zzz")) {
@@ -63,7 +66,7 @@ client.on('message', message => {
             message.channel.send("Bork! ", { files: ["./images/BrokDog.png"] });
         }
         else if (random > 10 && random <= 15) {
-            message.channel.send("Dog? ", { files: ["./images/Dog?.png"] });
+            message.channel.send("Dog? ", { files: ["./images/Doggo.png"] });
         }
         else if (random > 15 && random <= 20) {
             message.channel.send("Smile dog! ", { files: ["./images/SmileDog.png"] });
@@ -71,7 +74,10 @@ client.on('message', message => {
         else if (random > 20 && random < 23) {
             message.channel.send("Flowers! From dog ", { files: ["./images/FlowerDog.png"] });
         }
-        
+        else if ((random >= 23 && random < 26) || message.content.toLocaleLowerCase().includes("royal")){
+            message.channel.send("How Pawpur! ", { files: ["./images/KingDog.png"] });
+        }
+    
         else {
             message.channel.send('Dog!', { files: ["./images/Dog!.png"] });
         }

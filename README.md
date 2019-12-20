@@ -19,10 +19,11 @@ All possible Dog images:<br/>
 <img src="./images/Dog!.png" width="150">
 <img src="./images/FlowerDog.png" width="150">
 <img src="./images/Meow.png" width="150">
-<img src="./images/RareDog.jpg" width="150">
-<img src="./images/SleepyDog.jpg" width="150">
+<img src="./images/RareDog.jpg" width="120">
+<img src="./images/KindDog.png" width="150">
+<img src="./images/SleepyDog.jpg" width="170">
 <img src="./images/SmileDog.png" width="150">
-<img src="./images/Dog?.png" width="150">
+<img src="./images/Doggo.png" width="150">
 
 <!---
 OWO Bot<br/>
