@@ -1,5 +1,6 @@
-### Dog Bot<br/>
-Making a bot to do fun things in Discord, post various dog pics.
+### DogBot<br/>
+Making a bot do the most fun thing you can do in Discord, post various dog pics.<br/>
+
 Examples of Dogs from output !Dog:<br/>
 <img src="./images/DogDemo1.png" width="270">
 <img src="./images/DogDemo2.png" width="270">
