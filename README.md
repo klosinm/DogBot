@@ -12,6 +12,18 @@ If you type
 you will get a hint for a command to get a specific dog pic<br/>
 <img src="./images/DogDemo4.png" width="300">
 
+____________________________________________________________________________________
+All possible Dog images:
+<img src="./images/BrokDog.png" width="150">
+<img src="./images/ChirstmasDog.png" width="150">
+<img src="./images/Dog!.png" width="150">
+<img src="./images/FlowerDog.png" width="150">
+<img src="./images/Meow.png" width="150">
+<img src="./images/RareDog.png" width="150">
+<img src="./images/SleepyDog.png" width="150">
+<img src="./images/SmileDog.png" width="150">
+<img src="./images/Dog?.png" width="150">
+
 <!---
 OWO Bot<br/>
  #By Typing "whats this", alone or in a phrase, bot will return OwO:<br/>
