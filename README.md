@@ -5,6 +5,7 @@ The Two Main functions of this bot is to post various Dog Pictures on command as
 
 ### Dog Bot
 Examples of Dogs from output !Dog:
+<img src="./DogDemo1.png" width="100" height="100">
 ![DogDemo 1](/images/DogDemo1.png| width=48)
 ![DogDemo 2](/images/DogDemo2.png| width=48)
 ![Dog Demo 3](/images/DogDemo3.png| width=48)
