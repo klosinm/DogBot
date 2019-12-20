@@ -21,33 +21,26 @@ client.on('message', message => {
      */
 
     if (message.content.startsWith(`${prefix}List`)) {
-        message.channel.send("Things I can do!:\n");
-        message.channel.send("!Dog: sends fun Dog pic\n");
-        message.channel.send("OwO: Responds with good message\n");
-        message.channel.send("Whats this: Responds with good message");
+        message.channel.send("Things I can do!\n`!Dog:` Sends many fun dog pics\n`OwO:` Responds with good message\n`Whats this:` Responds with good message too");
     }
 
     //_________________________________________________________________________________________
     //OWO bot
 
-    if (message.content.startsWith(`${prefix}What\'s this?` && !message.author.bot)) //!kick
-    {
+    if (message.content.toLocaleLowerCase().includes('owo') && !message.author.bot) {
         var random = (Math.floor(Math.random() * 10));
-        
+
         if (random == 1) {
-            message.channel.send("Who Knows?");
+            message.channel.send("owo");
         }
         else if (random % 2 == 0) {
-            message.channel.send("OWO?");
+            message.channel.send("what\'s this?");
         }
         else {
-            message.channel.send("Uwu");
+            message.channel.send("UwU");
         }
     }
-    if (message.content.includes('owo') && !message.author.bot) {
-        message.channel.send("what\'s this?");
-    }
-    if (message.content.includes("whats this") && !message.author.bot) {
+    if (message.content.toLocaleLowerCase().includes("whats this") && !message.author.bot) {
         message.channel.send("OwO");
     }
 
@@ -55,13 +48,32 @@ client.on('message', message => {
     //_________________________________________________________________________________________
     //Dog pics
 
-    if (message.content.startsWith(`${prefix}Dog` && !message.author.bot)) //!kick
+    if (message.content.toLocaleLowerCase().startsWith(`${prefix}dog`)) //!kick
     {
         var random = (Math.floor(Math.random() * 30));
 
 
-        if (random == 0 || message.content.includes("puwpy")) {
+        if (message.content.includes("secret")){
+
+            if (random > 30) {
+                message.channel.send("Try, \"!Dog festive\"!");
+            }
+            else if (random > 20) {
+                message.channel.send("Try, \"!Dog :3\"!");
+            }
+            else if (random > 10) {
+                message.channel.send("Try, \"!Dog zzz\"!");
+            }
+            else {
+                message.channel.send("Try, \"!Dog puwpy\"!");
+            }
+        }
+
+        else if (random == 0 || message.content.includes("puwpy")) {
             message.channel.send("Very Rare Dog!!! ", { files: ["./images/RareDog.jpg"] });
+        }
+        else if (random == 30 || message.content.includes(":3")) {
+            message.channel.send('Meow?', { files: ["./images/Meow.png"] });
         }
         else if (random == 25 || message.content.includes("festive") ) {
             message.channel.send("Festive Dog!!! ", { files: ["./images/ChirstmasDog.jpg"] });
@@ -81,9 +93,7 @@ client.on('message', message => {
         else if (random > 20 && random < 23) {
             message.channel.send("Flowers! From dog ", { files: ["./images/FlowerDog.png"] });
         }
-        else if (random == 30) {
-            message.channel.send('Meow?', { files: ["./images/Meow.png"] });
-        }
+        
         else {
             message.channel.send('Dog!', { files: ["./images/Dog!.png"] });
         }
