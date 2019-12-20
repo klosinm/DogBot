@@ -5,17 +5,17 @@ The Two Main functions of this bot is to post various Dog Pictures on command as
 
 ### Dog Bot<br/>
 Examples of Dogs from output !Dog:<br/>
-<img src="./images/DogDemo1.png" width="200">
-<img src="./images/DogDemo2.png" width="200">
-<img src="./images/DogDemo3.png" width="200"><br/>
+<img src="./images/DogDemo1.png" width="300">
+<img src="./images/DogDemo2.png" width="300">
+<img src="./images/DogDemo3.png" width="300"><br/>
 
 If you type 
 ```sh
 !Dog Secret
 ``` 
 you will get a hint for a command to get a specific dog pic<br/>
-<img src="./images/DogDemo4.png" width="200">
+<img src="./images/DogDemo4.png" width="300">
 
 ### OWO Bot<br/>
-<img src="./images/OwOdemo1.png" width="200"><br/>
-<img src="./images/OwOdemo2.png" width="200"><br/>
+<img src="./images/OwOdemo1.png" width="300">
+<img src="./images/OwOdemo2.png" width="300"><br/>
