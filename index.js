@@ -19,7 +19,7 @@ client.on('message', message => {
          .then(sent => console.log(`Sent a reply to ${sent.author.username}`))
          .catch(console.error);
      */
-
+    
     if (message.content.startsWith(`${prefix}List`)) {
         message.channel.send("Things I can do!\n`!Dog:` Sends many fun dog pics\n`OwO:` Responds with good message\n`Whats this:` Responds with good message too");
     }
