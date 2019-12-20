@@ -5,9 +5,9 @@ The Two Main functions of this bot is to post various Dog Pictures on command as
 
 ### Dog Bot
 Examples of Dogs from output !Dog:
-![DogDemo 1](/images/DogDemo1.png=150x100)
-![DogDemo 2](/images/DogDemo2.png=150x100)
-![Dog Demo 3](/images/DogDemo3.png=150x100)
+![DogDemo 1](/images/DogDemo1.png){: width=150 height=100 }
+![DogDemo 2](/images/DogDemo2.png){: width=150 height=100 }
+![Dog Demo 3](/images/DogDemo3.png){: width=150 height=100 }
 
 
 If you type 
@@ -15,9 +15,9 @@ If you type
 !Dog Secret
 ``` 
 you will get a hint for a command to get a specific dog pic
-![Dog Demo 4](/images/DogDemo4.png=150x100)
+![Dog Demo 4](/images/DogDemo4.png){: width=150 height=100 }
 
 ### OWO Bot
 
-![OWO Demo 1](/images/OwOdemo1.png=150x100)
-![OWO Demo 2](/images/OwOdemo2.png=150x100)
+![OWO Demo 1](/images/OwOdemo1.png){: width=150 height=100 }
+![OWO Demo 2](/images/OwOdemo2.png){: width=150 height=100 }
