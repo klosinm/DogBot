@@ -1,7 +1,7 @@
 ### DogBot<br/>
 Making a bot do the most fun thing you can do in Discord, post various dog pics.<br/>
 
-Examples of Dogs from output !Dog:<br/>
+Examples of Dogs from command !Dog:<br/>
 <img src="./images/DogDemo1.png" width="270">
 <img src="./images/DogDemo2.png" width="270">
 <img src="./images/DogDemo3.png" width="270"><br/>
