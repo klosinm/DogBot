@@ -25,6 +25,9 @@ All possible Dog images:<br/>
 <img src="./images/SmileDog.png" width="150">
 <img src="./images/Doggo.png" width="150">
 
+____________________________________________________________________________________
+Last Update: Dec 20, 2019
+
 <!---
 OWO Bot<br/>
  #By Typing "whats this", alone or in a phrase, bot will return OwO:<br/>
