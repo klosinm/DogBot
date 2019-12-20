@@ -23,28 +23,6 @@ client.on('message', message => {
     if (message.content.startsWith(`${prefix}List`)) {
         message.channel.send("Things I can do!\n`!Dog:` Sends many fun dog pics\n`OwO:` Responds with good message\n`Whats this:` Responds with good message too");
     }
-
-    //_________________________________________________________________________________________
-    //OWO bot
-
-    if (message.content.toLocaleLowerCase().includes('owo') && !message.author.bot) {
-        var random = (Math.floor(Math.random() * 10));
-
-        if (random == 1) {
-            message.channel.send("owo");
-        }
-        else if (random % 2 == 0) {
-            message.channel.send("what\'s this?");
-        }
-        else {
-            message.channel.send("UwU");
-        }
-    }
-    if (message.content.toLocaleLowerCase().includes("whats this") && !message.author.bot) {
-        message.channel.send("OwO");
-    }
-
-
     //_________________________________________________________________________________________
     //Dog pics
 
@@ -101,8 +79,27 @@ client.on('message', message => {
 
    
 
+    //_________________________________________________________________________________________
+    //OWO bot
 
+   /* 
+   if (message.content.toLocaleLowerCase().includes('owo') && !message.author.bot) {
+        var random = (Math.floor(Math.random() * 10));
 
+        if (random == 1) {
+            message.channel.send("owo");
+        }
+        else if (random % 2 == 0) {
+            message.channel.send("what\'s this?");
+        }
+        else {
+            message.channel.send("UwU");
+        }
+    }
+    if (message.content.toLocaleLowerCase().includes("whats this") && !message.author.bot) {
+        message.channel.send("OwO");
+    }
+    */
 
 })
 
